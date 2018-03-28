@@ -136,9 +136,6 @@ var Event = (function () {
         if (!(offLineCache[nameSpace] && offLineCache[nameSpace][eventName])) {
             return;
         }
-        console.log(events[nameSpace][eventName]);
-        console.log(offLineCache[nameSpace][eventName]);
-        console.log(eventMap);
         offLineCache[nameSpace][eventName].forEach(function (data) {
             events[nameSpace][eventName].forEach(function (uuid) {
                 if (eventMap[uuid]) {

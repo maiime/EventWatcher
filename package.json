@@ -1,6 +1,6 @@
 {
   "name": "eventwatcher-listener",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "a tool like event bus.",
   "main": "index.js",
   "scripts": {
