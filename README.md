@@ -14,13 +14,13 @@ var eid1 = Event.listen('test', data => {
 });
 // add listener(test) to 'nameSpace' name space. 
 var eid2 = Event.listen('test', data => {
-    console.log(data);
+    console.log(data * 2);
 }, 'nameSpace');
 
 // trigger event(test) in default name space.
 Event.trigger('test', 100);                 //100
 // trigger event(test) in 'nameSpace' name space.
-Event.trigger('test', 200, 'nameSpace');    //200
+Event.trigger('test', 200, 'nameSpace');    //400
 
 // remove listener by id.
 Event.remove(eid1);
