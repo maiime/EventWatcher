@@ -1,0 +1,23 @@
+{
+  "name": "eventwatcher-listener",
+  "version": "0.0.1",
+  "description": "a tool like event bus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maiime/EventWatcher.git"
+  },
+  "keywords": [
+    "listener",
+    "watcher"
+  ],
+  "author": "maiime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maiime/EventWatcher/issues"
+  },
+  "homepage": "https://github.com/maiime/EventWatcher#readme"
+}
